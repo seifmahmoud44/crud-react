@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li{
+  text-decoration: none;
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background-color: #E5E0FF;
+  
+}
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.nav > div{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+
+}
+.links a{
+  font-size: 1rem;
+  padding: 10px 20px;
+  
+
+}
+.links a.active{
+  border-bottom: solid 1px #7286D3;
+  border-top: solid 1px #7286D3;
+}
+ .Sign-in{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #8EA7E9;
+  color: white;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  
+}
+.Sign-in .active{
+    background-color: red;
+}
+.nav > button:hover{
+  background-color: #7286D3;
+}
+.logo{
+  color: #7286D3;
+  font-size: 2rem;
+  font-family: 'Gajraj One', cursive;
+  letter-spacing: 2px;
+}
+
+form{
+  display: grid;
+  place-items: center;
+  width: 500px;
+  margin: auto;
+}
+form > div{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 100%;
+}
+input{
+  padding: 10px 5px;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+}
+
+label{
+  margin-left: 7px;
+  margin-bottom: 5px;
+  color: #7286D3;
+}
+form .Sign-in{
+  width: 100%;
+  height: 40px;
+  margin: 20px;
+}
+.forget {
+  margin: auto;
+  color: #7286D3;
+}
+table{
+  width: 90%;
+  margin: auto;
+}
+tr:nth-child(even) {
+  background-color:#c4d0ff ;
+}
+th, td {
+  padding: 15px;
+}
+th{
+  text-align: start;
+}
+table  button{
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px ;
+  border: none;
+  background-color: #D9534F ;
+  cursor: pointer;
+}
+table  button.edit{
+  background-color: #F0AD4E
+}
